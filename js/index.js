@@ -100,12 +100,12 @@ function poplnbHideM() {
 function videoRandomChange(){
     var randomNum = Math.floor(Math.random() * 3); // 랜덤 값 생성 후 자연수로 변경
     console.log(randomNum);
-    document.getElementById('ran_m').src="img/index/menu0" + randomNum + ".mp4";
+    document.getElementById('ran_m').src="img/index/menu0" + randomNum + ".webm";
 }
 function videoRamChange(){
     var randomNum = Math.floor(Math.random() * 3); // 랜덤 값 생성 후 자연수로 변경
     console.log(randomNum);
-    document.getElementById('ran').src="img/index/menu0" + randomNum + ".mp4";
+    document.getElementById('ran').src="img/index/menu0" + randomNum + ".webm";
 }
 
 
