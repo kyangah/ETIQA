@@ -312,7 +312,7 @@ function maskOut(){
 function videoRandomChange(){
     var randomNum = Math.floor(Math.random() * 3 + 1); // 랜덤 값 생성 후 자연수로 변경
     console.log(randomNum);
-    document.getElementById('ranvedio').src="img/index/menu0" + randomNum + ".avi";
+    document.getElementById('ranvedio').src="img/index/menu0" + randomNum + ".webm";
 }
 //  var iiii = 0;
 //  function imgChange() {
