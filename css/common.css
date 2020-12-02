@@ -1,0 +1,58 @@
+
+*{margin:0; padding:0; box-sizing: border-box; word-break: keep-all;}
+body{
+    background: rgb(165,183,216);
+}
+
+/* h2{
+    font-family: 'NanumBarunGothic', sans-serif; 
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+} */
+h3{
+    font-family: "Circular Std Bold"; 
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+
+h4{
+    font-family: 'NanumBarunGothic', sans-serif; 
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+
+p{
+    font-family: 'NanumBarunGothic', sans-serif; 
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    font-family: "Circular Std Bold"; 
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+a:link{ text-decoration: none; color: rgb(0,0,0);}
+a:hover { text-decoration: none; color: rgb(0,0,0); }
+a:active { text-decoration: none; color: rgb(0,0,0); }
+a:visited { text-decoration: none; color: rgb(0,0,0); } 
+
+ul { list-style: none; }

@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에티카 ETIQA</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/index/favicon-32x32.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body onscroll="scrollState()">
+    
+    <!-- pop menu begin -->
+    <div class="ly_pop_boom" id="ly_pop">
+        <div class="pop_logo_menu_wrap">
+            <div>
+                <h1 id="logo_pop"><a href="index.html"></a></h1>
+            </div>
+            <div class="menu_pop">
+                <menu id="menu_pop_hide" onclick="poplnbHide()">
+                    <a href="#"></a>
+                </menu>
+            </div>
+        </div>
+        <div class="mn_wrap">
+            <div class="bgv" id="bgvdown" onclick="bgvDown()">
+                <video id="ran" autoplay muted loop width="100%" height="100%">
+                    <source src="img/index/menu01.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mn_bx">
+                <div class="mn_l">
+                    <div class="prdt">
+                        <p class="tit">PRODUCT</p>
+                        <div class="menu_list">
+                            <div class="mn_lst">
+                                <strong>MASK</strong>
+                                <ul>
+                                    <li><a href="product_basic.html">BASIC</a></li>
+                                    <li><a href="#">AIRWAY</a></li>
+                                    <li><a href="#">COTTON</a></li>
+                                    <li><a href="#">KIDS</a></li>
+                                    <li><a href="#">STYLE</a></li>
+                                    <li><a href="#">SOFT FIT</a></li>
+                                    <li><a href="#">INNER</a></li>
+                                </ul>
+                            </div>
+                            <div class="mn_lst">
+                                <strong>CARE ITEM</strong>
+                                <ul>
+                                    <li><a href="#">CASE</a></li>
+                                    <li><a href="#">SANITIZER</a></li>
+                                    <li><a href="#">ETIQUETTE SPRAY</a></li>
+                                </ul>
+                            </div>
+                            <div class="mn_lst">
+                                <strong>COSMETICS</strong>
+                                <ul>
+                                    <li><a href="#">FACIAL MIST</a></li>
+                                    <li><a href="#">CLEANSING FOAM</a></li>
+                                    <li><a href="#">DUAL MASK SHEET</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- story -->
+                    <div class="feat">
+                        <p class="tit">STORY</p>
+                        <div class="menu_list">
+                            <div class="mn_lst">
+                                <ul>
+                                    <li><a href="brand_story.html">BRAND STORY</a></li>
+                                    <li><a href="sinmina.html">SHIN MINA</a></li>
+                                    <li><a href="kimdami.html">KIM DAMI</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- etc -->
+                    <div class="etc">
+                        <p class="tit">ETC</p>
+                        <div class="menu_list">
+                            <div class="mn_lst">
+                                <ul>
+                                    <li>
+                                        <a href="#" target="_blank">ETIQA STORE</a>
+                                    </li>
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mn_r">
+                    <div class="sns">
+                        <ul class="sns_lst">
+                            <li><div><a href="#" target="_blank" title="에티카 ETIQA facebook 새창에서 열기">FACEBOOK</a></div></li>
+                            <li><a href="#" target="_blank" title="에티카 ETIQA instagram 새창에서 열기">INSTAGRAM</a></li>
+                            <li><a href="#" target="_blank" title="에티카 ETIQA youtube 새창에서 열기">YOUTUBE</a></li>
+                            <li><a href="#" target="_blank" title="에티카 ETIQA 네이버블로그 새창에서 열기">BLOG</a></li>
+                            <li><a href="#" target="_blank" title="ETIQA 네이버포스트 새창에서 열기">POST</a></li>
+                        </ul>
+                    </div>
+                    <p class="copy">Copyright © 2019 Filt</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- //mn_wrap -->
+    </div>
+    <!-- pop menu end -->
+    
+    <!-- pop menu mobile begin -->
+    <div id="ly_pop_m">
+        <div class="bgv_m">
+            <video id="ran_m" autoplay muted loop width="100%" height="100%">
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+        <div class="ly_pop_m_wrap">
+
+            <div class="pop_logo_menu_wrap_m">
+                <div>
+                    <h1 id="logo_pop_m"><a href="index.html"></a></h1>
+                </div>
+                <div class="menu_pop_m">
+                    <menu id="menu_pop_hide_m" onclick="poplnbHideM()">
+                        <a href="#"></a>
+                    </menu>
+                </div>
+            </div>
+
+            <div class="mn_wrap_m">
+                <div class="mn_wrap_m_div">
+                    <p class="tit_m">PRODUCT</p>
+                    <ul>
+                        <li><a href="product_basic.html">BASIC</a></li>
+                        <li><a href="#">AIRWAY</a></li>
+                        <li><a href="#">COTTON</a></li>
+                        <li><a href="#">KIDS</a></li>
+                        <li><a href="#">STYLE</a></li>
+                        <li><a href="#">SOFT FIT</a></li>
+                        <li><a href="#">INNER</a></li>
+                        <li><a href="#">BREEZE</a></li>
+                        <li><a href="#">CASE</a></li>
+                        <li><a href="#">SANITIZER</a></li>
+                        <li><a href="#">ETIQUETTE SPRAY</a></li>
+                        <li><a href="#">FACIAL MIST</a></li>
+                        <li><a href="#">CLEANSING FOAM</a></li>
+                        <li><a href="#">DUAL MASK SHEET</a></li>
+                    </ul>
+                </div>
+                <div class="mn_wrap_m_div">
+                    <p class="tit_m">STORY</p>
+                    <ul>
+                        <li><a href="brand_story.html">BRAND STORY</a></li>
+                        <li><a href="sinmina.html">SHIN MINA</a></li>
+                        <li><a href="kimdami.html">KIM DAMI</a></li>
+                    </ul>
+                </div>
+                <div class="mn_wrap_m_div">
+                    <p class="tit_m">ETC</p>
+                    <ul>
+                        <li><a href="#" target="_blank">ETIQA STORE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="mn_m">
+                    <div class="sns_m">
+                        <ul class="sns_lst_m">
+                            <li>
+                                <a href="#" target="_blank" title="에티카 ETIQA facebook 새창에서 열기">FACEBOOK</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="에티카 ETIQA instagram 새창에서 열기">INSTAGRAM</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="에티카 ETIQA youtube 새창에서 열기">YOUTUBE</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="에티카 ETIQA 네이버블로그 새창에서 열기">BLOG</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="ETIQA 네이버포스트 새창에서 열기">POST</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="copy_m">Copyright © 2019 Filt</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- pop menu mobile end -->
+
+    <div id="pbanner">
+        <div class="banner">
+            <ul>
+                <li><img src="img/index/img_pbanner13.png" alt=""></li>
+                <li><img src="img/index/img_pbanner18.png" alt=""></li>
+                <li><img src="img/index/img_pbanner20.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="banner_close" onclick="bannerHide()">
+            <a href="#">
+                <img src="img/index/btn_pbannerclose3.png" alt="">
+            </a>
+        </div>
+
+    </div>
+
+    <header id="header">
+        <div class="logo_menu_wrap">
+            <div class="logo_menu_img">
+                <div>
+                    <h1 id="logo"><a href="index.html"></a></h1>
+                </div>
+                <div>
+                    <menu id="menu_show" onclick="lnbShow()">
+                        <a href="#"></a>
+                    </menu>
+                </div> 
+            </div>
+        </div>
+        <nav id="gnb">
+            <ul class="gnb_menu">
+                <li class="gnb_menu_li">
+                    <a href="product_basic.html">BASIC MASK</a>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#">AIRWAY MASK</a>
+                    <ul class="snb_menu dropdown_menu">
+                        <li><a href="#">BASIC &amp; ADVANCE</a></li>
+                        <li><a href="#">COTTON</a></li>
+                        <li><a href="#">KIDS</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#">STYLE MASK</a>
+                    <ul class="snb_menu dropdown_menu">
+                        <li><a href="#">STYLE</a></li>
+                        <li><a href="#">SOFT FIT</a></li>
+                        <li><a href="#">INNER MASK</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#">CARE ITEM</a>
+                    <ul class="snb_menu dropdown_menu">
+                        <li><a href="#">SANITIZER</a></li>
+                        <li><a href="#">ETIQUETTE SPRAY</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#">COSMETICS</a>
+                    <ul class="snb_menu dropdown_menu">
+                        <li><a href="#">FACIAL MIST</a></li>
+                        <li><a href="#">CLEANSING FOAM</a></li>
+                        <li><a href="#">DUAL MASK SHEET</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- 모바일용 header -->
+        <nav id="gnb_m">
+            <div class="logo_menu_wrap_m">
+                <div>
+                    <h1 class="logo_m"><a href="index.html"></a></h1>
+                </div>
+                <div>
+                    <menu id="menu_show_m" onclick="mLnbShow()">
+                        <a href="#"></a>
+                    </menu>
+                </div> 
+            </div>
+        </nav>
+    </header>
+
+        
+
+
+    <section id="container">
+        <!-- 네이버스토어 이동 begin-->
+        <div class="gostore">
+            <a href="#"></a>
+        </div>
+        <!-- 네이버스토어 이동 end-->
+
+
+        <!-- onebox menu begin -->
+            <!-- COETIQA MOISTURE CLEARING -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc12.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>
+                            COETIQA<br>
+                            MOISTURE CLEARING
+                        </h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>
+                            지친 피부를 위한<br>
+                            보습진정 즉각케어
+                        </h4>
+                        <p>
+                            코에티카 모이스처 클리어링 라인은 지속적인 마스크 착용과 <br>
+                            다양한 외부 환경 요소로 인하여 지친 피부에 보습과<br>
+                            진정 효과를 주기 위한 에티카의 코스메틱 라인으로<br>
+                            식물성 성분과 피부 보호 특허 성분이 함유되어<br>
+                            편안한 피부 관리에 도움을 줍니다. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- ETIQA ETIQUETTE SPRAY -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc13.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA<br>ETIQUETTE SPRAY</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>매일의 상쾌함,<br>데일리 구강케어</h4>
+                        <p>
+                            에티카 에티켓 스프레이는 간편하게 휴대하여<br>구강 악취 제거와 프라그 제거, 구강 내 청결을 관리해줍니다.<br>에티켓 스프레이의 청량한 민트향으로 언제 어디서나<br>상쾌함을 느껴보세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ETIQA SOFT FIT MASK -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc11.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA SOFT FIT MASK<br>GET READY FOR YOUR ACTIVITY</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>GET READY FOR<br>YOUR ACTIVITY</h4>
+                        <p>
+                            에티카 소프트 핏 마스크는 습식 폴리우레탄 소재로<br>제작되어 물에 젖어도 빠르게 건조되며 오염 시에도<br>간편한 세탁을 통한 재사용이 가능합니다.<br>자외선 차단 테스트 및 항균 테스트를 완료해 누구나<br>안심하고 사용할 수 있는 에티카 소프트 핏 마스크로<br>올여름 온 가족과 함께 쾌적하고 건강한 휴가를 즐겨보세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ETIQA INNER MASK -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc10.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA INNER MASK<br>Daily Care, Inner Care</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>DAILY CARE,<br>INNER CARE</h4>
+                        <p>
+                            현대인들의 일상 속 필수품이 되어버린 마스크.<br>메이크업, 땀, 습기, 침 등의 이물질에 노출되는 마스크 내부 <br>또한 관리가 필요합니다. 에티카 이너 마스크는 얼굴에 <br>밀착되는 구조로 마스크와 함께 착용 시 효율을 높여줄 뿐만 <br>아니라 마스크의 내, 외부적 요인들로 인한 오염으로부터 <br>사용자를 보호해 줍니다. 매일매일 교체하는 이너 마스크로 <br>청결함은 높이고 마스크의 재사용 부담을 줄여보세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_wrap_first">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc9.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>청결, 건강을<br>지키는 생활습관</h4>
+                        <p>
+                            순도 높은 에탄올의 99.9% 살균 효과,<br>청량한 겔 제형으로 끈적임 없이 산뜻한 사용감.<br>에티카 퓨어 핸드 손소독제 겔은 청결함에 기본이 되는<br>살균 효과는 물론, 피부 보습과 진정까지 케어하여<br>건강을 지키는 생활 습관의 시작을 도와줍니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ETIQA STYLE MASK -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m3_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA STYLE MASK<br>Be Create Your Area</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>BE CREATE<br>YOUR AREA</h4>
+                        <p>
+                            에티카의 스타일마스크는 외부로부터 자신을 보호하기<br>
+                            위해서만 존재해왔던 기존 마스크의 개념을 넘어 끊임없이<br>
+                            새로운 문화를 생산하고 이를 향유하는 이들이 자신만의 영역을<br>
+                            구축하는, 자신의 존재를 드러내기 위한 수단으로서의<br>
+                            마스크라는 그동안 경험하지 못했던 새로운 스타일링을<br>
+                            제안합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc8.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>청결, 건강을<br>지키는 생활습관</h4>
+                        <p>
+                            순도 높은 에탄올의 99.9% 살균 효과,<br>청량한 겔 제형으로 끈적임 없이 산뜻한 사용감.<br>에티카 퓨어 핸드 손소독제 겔은 청결함에 기본이 되는<br>살균 효과는 물론, 피부 보습과 진정까지 케어하여<br>건강을 지키는 생활 습관의 시작을 도와줍니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ETIQA AIRWAY MASK -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m2_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA AIRWAY MASK<br>Advance / Progressive / Be natural</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>전에 없던, 편안함</h4>
+                        <p>
+                            에어밸브를 통한 날숨의 해방. 인체공학적 디자인으로 탄생한<br>
+                            가장 이상적인 핏. 에티카 에어웨이 어드밴스 마스크는 기존에<br>
+                            제공해왔던 ‘깨끗한 숨’에 ‘편안함’을 더해 당신의 더 나은 삶을<br>
+                            위한 솔루션을 제공합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ETIQA BASIC MASK -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m1_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA BASIC MASK<br>Comfortable Breathing Ware</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>차별화된 기본</h4>
+                        <p>
+                            보다 까다로운 기준, 엄격한 테스트 에티카 베이직 마스크는 돔<br>
+                            형태의 입체구조를 통한 편안한 호흡감과 부드러운 원단으로<br>
+                            착용감을 높여 수많은 마스크들 중에서도 가장 베이직하면서도<br>
+                            차별화된 솔루션을 제공합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ETIQA AIRWAY MASK kids -->
+            <div class="onebox_wrap">
+                <a class="onebox_img" href="#">
+                    <img src="img/index/bg_sc7.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <div>
+                        <h3>ETIQA AIRWAY MASK<br>Kids</h3>
+                        <button class="gs_button">SHOP</button>
+                    </div>
+                    <div>
+                        <h4>우리 아이, 첫 번째 숨케어</h4>
+                        <p>
+                            편안한 호흡감, 부드러운 착용감<br>
+                            초미세먼지로 가득한 세상 속, 에티카 에어웨이 키즈 마스크는<br>
+                            편안함을 바탕으로 우리 아이들의 건강한 숨 생활을 위한<br>
+                            솔루션을 제공합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!-- onebox menu end -->
+
+            
+        <!-- onebox menu mobile begin-->
+            <!-- COETIQA MOISTURE CLEARING -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc12_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>
+                        COETIQA MOISTURE CLEARING
+                    </h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA ETIQUETTE SPRAY -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc13_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA ETIQUETTE SPRAY</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA SOFT FIT MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc11_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA SOFT FIT MASK</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA INNER MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc10_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA INNER MASK</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc9_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA STYLE MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m3_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA STYLE MASK<br>Be Create Your Area</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc8_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+            
+            <!-- ETIQA AIRWAY MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m2_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA AIRWAY MASK<br>Advance / Progressive / Be natural</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA BASIC MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m1_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA BASIC MASK<br>Comfortable Breathing Ware</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA AIRWAY MASK kids -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc7_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA AIRWAY MASK<br>Kids</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA ETIQUETTE SPRAY -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc13_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA<br>ETIQUETTE SPRAY</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA SOFT FIT MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc11_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA SOFT FIT MASK<br>GET READY FOR YOUR ACTIVITY</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>    
+
+            <!-- ETIQA INNER MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc10_m.jpg" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA INNER MASK<br>Daily Care, Inner Care</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc9_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA STYLE MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m3_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA STYLE MASK<br>Be Create Your Area</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- TIQA PURE HAND -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc8_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+            
+            <!-- ETIQA AIRWAY MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m2_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA AIRWAY MASK<br>Advance / Progressive / Be natural</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA BASIC MASK -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img_video" href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/mov_m1_wide.mp4" type="video/mp4"> 
+                    </video>
+                </a> 
+                <div class="onebox_video_text">
+                    <h3>ETIQA BASIC MASK<br>Comfortable Breathing Ware</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+            <!-- ETIQA AIRWAY MASK kids -->
+            <div class="onebox_m_wrap">
+                <a class="onebox_m_img" href="#">
+                    <img src="img/index/bg_sc7_m.png" alt="">
+                </a>
+                <div class="onebox_text">
+                    <h3>ETIQA AIRWAY MASK<br>Kids</h3>
+                    <button class="gs_m_button">SHOP</button>
+                </div>
+            </div>
+
+        <!-- onebox menu mobile end-->
+
+
+        <!-- twobox menu begin -->
+        <div class="box_menu_wrap">
+            <ul class="box_menu">
+                <li>
+                    <h3>ETIQA<br>STYLE<br>MASK<br>BE CREATE YOUR AREA</h3>
+                    <a href="#">
+                        <img src="img/index/img_coetiqa.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>ETIQUETTE<br>SPRAY</h3>
+                    <a href="#">
+                        <img src="img/index/img_spray.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="box_menu">
+                <li>
+                    <h3>ETIQA<br>SOFT FIT<br>MASK</h3>
+                    <a href="#">
+                        <img src="img/index/img_softfit.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>INNER<br>MASK</h3>
+                    <a href="#">
+                        <img src="img/index/img_inner.png" alt="">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="box_menu">
+                <li>
+                    <h3 class="h3_gray">ETIQA<br>PURE HAND<br>SANITIZER GEL</h3>
+                    <a href="#">
+                        <img src="img/index/img_sanitizer.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>INNER<br>MASK</h3>
+                    <a href="#">
+                        <img src="img/index/img_airway.png" alt="">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="box_menu">
+                <li>
+                    <h3 class="h3_yellow">ETIQA<br>AIRWAY<br>MASK<br>Kids</h3>
+                    <a href="#">
+                        <img src="img/index/img_kids.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>BASIC<br>MASK<br>Comfortable Breathing Ware</h3>
+                    <a href="#">
+                        <img src="img/index/img_basic.png" alt="">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="box_menu">
+                <li>
+                    <h3 class="h3_black">ETIQA<br>STYLE<br>MASK<br>BE CREATE YOUR AREA</h3>
+                    <a href="#">
+                        <img src="img/index/img_fashion.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>MASK<br>CASE</h3>
+                    <a href="#">
+                        <video autoplay muted loop>
+                            <source src="img/index/banner03.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="box_menu">
+                <li>
+                    <h3>ETIQA<br>BRAND<br>STORY</h3>
+                    <a href="#">
+                        <img src="img/index/img_brandstory.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <h3>ETIQA<br>STORE</h3>
+                    <a href="#">
+                        <video autoplay muted loop>
+                            <source src="img/index/banner01.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="box_menu">
+                <li>
+                    <h3>WE<br>LOVE<br>ETIQA</h3>
+                    <a href="#">
+                        <img src="img/index/img_welove.png" alt="">
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- twobox menu end -->
+    </section>
+
+    <!-- twobox menu mobiel begin -->
+    <section id="box_menu_m_wrap">
+        <ul class="box_menu_m">
+            <li>
+                <h3>ETIQA<br>MOISTURE CLEARING</h3>
+                <a href="#">
+                    <img src="img/index/img_coetiqa_m.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA ETIQUETTE SPRAY</h3>
+                <a href="#">
+                    <img src="img/index/img_spray_m.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA SOFT FIT MASK<br>GET READY FOR YOUR ACTIVITY</h3>
+                <a href="#">
+                    <img src="img/index/img_softfit_m.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA INNER MASK</h3>
+                <a href="#">
+                    <img src="img/index/img_inner_m.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <h3 class="h3_gray_m">ETIQA PURE HAND<br>SANITIZER GEL</h3>
+                <a href="#">
+                    <img src="img/index/img_sanitizer_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA AIRWAY MASK<br>Advance / Progressive / Be natural</h3>
+                <a href="#">
+                    <img src="img/index/img_airway_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3 class="h3_yellow_m">ETIQA AIRWAY MASK<br>Kids</h3>
+                <a href="#">
+                    <img src="img/index/img_kids_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA BASIC MASK<br>Comfortable Breathing Ware</h3>
+                <a href="#">
+                    <img src="img/index/img_basic_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3 class="h3_black_m">ETIQA STYLE MASK<br>BE CREATE YOUR AREA</h3>
+                <a href="#">
+                    <img src="img/index/img_fashion_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA MASK CASE</h3>
+                <a href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/banner03.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA BRAND STORY</h3>
+                <a href="#">
+                    <img src="img/index/img_brandstory_m.png" alt="">
+                </a>
+            </li>
+            <li>
+                <h3>ETIQA STORE</h3>
+                <a href="#">
+                    <video autoplay muted loop>
+                        <source src="img/index/banner01.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </li>
+            <li>
+                <h3>WE LOVE ETIQA</h3>
+                <a href="#">
+                    <img src="img/index/img_welove_m.png" alt="">
+                </a>
+            </li>
+        </ul>
+
+    </section>
+    <!-- twobox menu mobiel end -->
+
+
+
+    <!-- footer begin -->
+    <footer id="footer" >
+        <div class="site">
+            <dl>
+                <dt>PRODUCT</dt>
+                <dd><a href="product_basic.html">BASIC</a></dd>
+                <dd><a href="#">AIRWAY</a></dd>
+                <dd><a href="#">COTTON</a></dd>
+                <dd><a href="#">KIDS</a></dd>
+                <dd><a href="#">STYLE</a></dd>
+                <dd><a href="#">SOFT FIT</a></dd>
+                <dd><a href="#">INNER</a></dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd><a href="#">CASE</a></dd>
+                <dd><a href="#">SANITIZER</a></dd>
+                <dd><a href="#">ETIQUETTE SPRAY</a></dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd><a href="#">FACIAL MIST</a></dd>
+                <dd><a href="#">CLEANSING FOAM</a></dd>
+                <dd><a href="#">DUAL MASK SHEET</a></dd>
+            </dl>
+            <dl>
+                <dt>STORY</dt>
+                <dd><a href="brand_story.html">BRAND SROTY</a></dd>
+                <dd><a href="sinmina.html">SHIN MINA</a></dd>
+                <dd><a href="kimdami.html">KIM DAMI</a></dd>
+            </dl>
+            <dl>
+                <dt>ETC</dt>
+                <dd><a href="contact.html">CONTACT</a></dd>
+                <dd><a href="#">ETITA STORE</a></dd>
+            </dl>
+        </div>
+        <div class="others">
+            <div class="sns">
+                <ul>
+                    <li class="facebook"><a href="#">FACEBOOK.</a></li>
+                    <li class="instagram"><a href="#">INSTAGRAM.</a></li>
+                    <li class="youtube"><a href="#">YOUTUBE.</a></li>
+                    <li class="blog"><a href="#">BLOG.</a></li>
+                    <li class="post"><a href="#">POST.</a></li>
+                </ul>
+            <p class="copyright">
+                Copyright © 2019 Filt Corporation All rights reserved.
+            </p>
+            </div>
+            <div class="award">
+                <img src="img/index/ico_gda_w.png">
+                <img src="img/index/ico_if_w.png">
+                <img src="img/index/ico_josun_w.png">
+            </div>
+        </div>
+    <!--  모바일 footer -->
+        <div class="site_m">
+            <ul class="link">
+                <li class="more">
+                    <h3 class="more_tit" onclick="footerOpen(0)">
+                    PRODUCT<span class="more_tit_img"></span>
+                    </h3>
+                    <span class="sub">
+                        <em><a href="product_basic.html">BASIC</a></em>
+                        <em><a href="">COTTON</a></em>
+                        <em><a href="">KIDS</a></em>
+                        <em><a href="">STYLE</a></em>
+                        <em><a href="">SOFT FIT</a></em>
+                        <em><a href="">INNER</a></em>
+                        <em><a href="">CASE</a></em>
+                        <em><a href="">SANITIZER</a></em>
+                        <em><a href="">ETIQUETTE SPRAY</a></em>
+                        <em><a href="">FACIAL MIST</a></em>
+                        <em><a href="">CLEANSING FOAM</a></em>
+                        <em><a href="">DUAL MASK SHEET</a></em>
+                    </span>
+                </li>
+                <li class="more">
+                    <h3 class="more_tit" onclick="footerOpen(1)">
+                        STORY<span class="more_tit_img"></span>
+                    </h3>
+                    <span class="sub">
+                        <em><a href="brand_story.html">BRAND SROTY</a></em>
+                        <em><a href="sinmina.html">SHIN MINA</a></em>
+                        <em><a href="kimdami.html">KIM DAMI</a></em>
+                    </span>
+            </li>
+            <li>
+                <strong><a href="contact.html">CONTACT</a></strong>  
+            </li>
+            <li>
+                <strong><a href="">ETITA STORE</a></strong>  
+            </li>
+            </ul>
+        </div>
+        <div class="others_m">
+            <div class="sns_m">
+                <ul>
+                    <li class="facebook_m"><a href="#">FACEBOOK.</a></li>
+                    <li class="instagram_m"><a href="#">INSTAGRAM.</a></li>
+                    <li class="youtube_m"><a href="#">YOUTUBE.</a></li>
+                    <li class="blog_m"><a href="#">BLOG.</a></li>
+                    <li class="post_m"><a href="#">POST.</a></li>
+                </ul>
+            </div>
+            <div class="award_m">
+            <span class="gda"></span>
+            <span class="if"></span>
+            <span class="josun"></span>
+            </div>
+            <p class="copyright_m">
+                Copyright © 2019 Filt Corporation All rights reserved.
+            </p>
+        </div>
+    </div>
+    </footer>
+    <!-- footer end -->
+    <script src="js/index.js"></script>
+
+
+
+    
+</body>
+</html>
